@@ -8,11 +8,6 @@
 
 body {
   background-color: rgb(242, 235, 223);
-  background-color: rgb(250, 183, 37);
-}
-
-#nav {
-  background-color: rgb(250, 183, 37);
 }
 
 div {
@@ -31,6 +26,14 @@ table, th, td, tr {
   margin-right: auto;
 }
 
+th, td, tr {
+  padding: 8px;
+}
+
+table {
+  border: solid black;
+}
+
 a:hover {
   color: blue;
   text-decoration: underline;
@@ -40,6 +43,11 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#review {
+  border-collapse: collapse;
+  border-style: dashed solid;
 }
 
 </style>
@@ -210,6 +218,7 @@ a:hover {
 
   </div>
   <hr>
+
 <!-- Getting there section -->
   <div id="location">
     <h1 style="text-align:center">Getting there</h1>
@@ -306,88 +315,92 @@ a:hover {
     </div>
   </div>
  <hr>
-<!-- Review section -->
-    <div id="reviews" style="text-align:center">
-      <h1 style="text-align:center">Reviews</h1>
-      <p style="text-align:center">Here are some reviews from <a href="https://www.tripadvisor.com.sg/Attraction_Review-g294265-d315466-Reviews-Jurong_Bird_Park-Singapore.html">Tripadvisor</a>:</p>
 
-    <table>
-      <tr>
-        <td>
-          <blockquote cite="https://www.tripadvisor.com.sg/ShowUserReviews-g294265-d315466-r770864017-Jurong_Bird_Park-Singapore.html?m=19905" style="display: inline-block; text-align: left;">
-            I believe this attraction is often overlooked by many in favour for the zoo and river/night safaris.
-            I loved my visit here. Also signed up for the “birds eye tour”, a behind-the-scenes tour that allowed me to get up close with a hornbill, owl, hawk and 18-day old cockatiel and talk to their keepers.
-            It was a real eye-opener and interactive experience. Strongly recommend watching their shows and attending the feeding sessions as well. <br>
-            by <a href="https://www.tripadvisor.com.sg/ShowUserReviews-g294265-d315466-r770864017-Jurong_Bird_Park-Singapore.html?m=19905">Andrew Yew</a>
-          </blockquote>
-        </td>
-      </tr>
-    </table>
+ <!-- Review section -->
+     <div id="reviews" style="text-align:center">
+       <h1 style="text-align:center">Reviews</h1>
+       <p style="text-align:center">Here are some reviews from <a href="https://www.tripadvisor.com.sg/Attraction_Review-g294265-d315466-Reviews-Jurong_Bird_Park-Singapore.html">Tripadvisor</a>:</p>
 
-    <table>
-      <tr>
-          <td>
-            <blockquote style="display: inline-block; text-align: left;">
-              Have visited several times as have a zoo annual pass.
-              Parking out the front and accessible by taxi/grab.
-              We prefer morning as can get very hot abs humid. Take a stroller from young ones or can hire a wagon. Lots of places to stop and have a break.
-              Train available to ride for those who need a rest or have mobility issues. Pretty much attraction is flat with exception of some step inclines/stairs near enclosures.<br>
-              by <a href="https://www.tripadvisor.com.sg/ShowUserReviews-g294265-d315466-r774502799-Jurong_Bird_Park-Singapore.html?m=19905">Bristraveller3870 </a>
-            </blockquote>
-          </td>
-      </tr>
-    </table>
+     <table id="review">
+       <tr>
+           <td>
+             <blockquote style="display: inline-block; text-align: left;">
+               Have visited several times as have a zoo annual pass.
+               Parking out the front and accessible by taxi/grab.
+               We prefer morning as can get very hot abs humid. Take a stroller from young ones or can hire a wagon. Lots of places to stop and have a break.
+               Train available to ride for those who need a rest or have mobility issues. Pretty much attraction is flat with exception of some step inclines/stairs near enclosures.<br>
+               by <a href="https://www.tripadvisor.com.sg/ShowUserReviews-g294265-d315466-r774502799-Jurong_Bird_Park-Singapore.html?m=19905">Bristraveller3870</a>, visited October 2020
+             </blockquote>
+           </td>
+       </tr>
+     </table><br>
 
-    <table>
-      <tr>
-          <td>
-            <blockquote style="display: inline-block; text-align: left;">
-              This place really great place to see all species of birds.
-              Many birds were kept in free space and few ones were captivated but kept in a spacious area.
-              This place is so huge it take almost half day to explore every area.<br>
-              by <a href="https://www.tripadvisor.com.sg/ShowUserReviews-g294265-d315466-r757308819-Jurong_Bird_Park-Singapore.html?m=19905">Rohan Sirsi </a>
-            </blockquote>
-          </td>
-        </tr>
-    </table>
+     <table id="review">
+       <tr>
+         <td>
+           <blockquote cite="https://www.tripadvisor.com.sg/ShowUserReviews-g294265-d315466-r770864017-Jurong_Bird_Park-Singapore.html?m=19905" style="display: inline-block; text-align: left;">
+             I believe this attraction is often overlooked by many in favour for the zoo and river/night safaris.
+             I loved my visit here. Also signed up for the “birds eye tour”, a behind-the-scenes tour that allowed me to get up close with a hornbill, owl, hawk and 18-day old cockatiel and talk to their keepers.
+             It was a real eye-opener and interactive experience. Strongly recommend watching their shows and attending the feeding sessions as well. <br>
+             by <a href="https://www.tripadvisor.com.sg/ShowUserReviews-g294265-d315466-r770864017-Jurong_Bird_Park-Singapore.html?m=19905">Andrew Yew</a>, visited September 2020
+           </blockquote>
+         </td>
+       </tr>
+     </table><br>
 
-    <h3 style="text-align:center">So what are you waiting for? Click <a href="https://www.wrs.com.sg/en/ticketing/admission-and-rides/parks-selection.html">here</a> to book your tickets!</h3>
+     <table id="review">
+       <tr>
+           <td>
+             <blockquote style="display: inline-block; text-align: left;">
+               This place really great place to see all species of birds.
+               Many birds were kept in free space and few ones were captivated but kept in a spacious area.
+               This place is so huge it take almost half day to explore every area.<br>
+               by <a href="https://www.tripadvisor.com.sg/ShowUserReviews-g294265-d315466-r757308819-Jurong_Bird_Park-Singapore.html?m=19905">Rohan Sirsi</a>, visited July 2019
+             </blockquote>
+           </td>
+         </tr>
+     </table>
 
-    <a href="#navbar" style="float:right">Back to top</a>
+     <h3 style="text-align:center">So what are you waiting for? Click <a href="https://www.wrs.com.sg/en/ticketing/admission-and-rides/parks-selection.html">here</a> to book your tickets!</h3>
 
-    <br>
-    </div>
-    <hr>
-<!-- Contact section -->
-    <div id="contact">
-      <h1 style="text-align:center">Contact us</h1>
-      <form action="/action_page.php" style="text-align:center">
-        <label for="category">Please select type of enquiry:</label>
-        <select id="category" name="category">
-          <option>General</option>
-          <option>Tours</option>
-          <option>Shows</option>
-          <option>Feed the animal</option>
-          <option>Feedback</option>
-          <option>Others</option>
-        </select><br><br>
+     <a href="#navbar" style="float:right">Back to top</a>
 
-        <label for="name">Name:</label><br>
-        <textarea name="name" cols="40" row="25" style="resize: none;"></textarea><br>
-          <label for="contact">Contact number:</label><br>
-          <textarea name="name" cols="40" row="50" style="resize: none;"></textarea><br>
-            <label for="message">Message:</label><br>
-            <textarea name="name" cols="40" row="50" style="resize: vertical;"></textarea><br><br>
-              <input type="submit" value="Submit">
-      </form>
-      <a href="#navbar" style="float:right">Back to top</a>
-      <br>
-    </div>
+     <br>
+     </div>
+     <hr>
 
-    <hr>
-<!-- Footer -->
-  <div style="background-color: black">
-    <p style="font-size: 10px; color: white; text-align: center">AAM08C Group 4, Assignment 1, Name: Muhammad Nur Shahril Iskandar Bin Abdul Ahmad Patsoen.</p>
-  </div>
-</body>
-</html>
+    <!-- Contact section -->
+        <div id="contact" style="text-align: center">
+          <h1>Contact us</h1>
+          <form action="/action_page.php" style="text-align:center">
+            <label for="category">Please select type of enquiry:</label>
+            <select id="category" name="category">
+              <option>General</option>
+              <option>Tours</option>
+              <option>Shows</option>
+              <option>Feed the animal</option>
+              <option>Feedback</option>
+              <option>Others</option>
+            </select><br><br>
+
+            <label for="name">Name:</label><br>
+            <textarea name="name" cols="40" row="25" style="resize: none;"></textarea><br>
+              <label for="contact">Contact number:</label><br>
+              <textarea name="name" cols="40" row="50" style="resize: none;"></textarea><br>
+                <label for="message">Message:</label><br>
+                <textarea name="name" cols="40" row="50" style="resize: vertical;"></textarea><br><br>
+                  <input type="submit" value="Submit">
+          </form>
+
+          <p>For business enquiries, please contact <a href="mailto: sales.bd.enq@wrs.com.sg">here</a>.</p>
+          <a href="#navbar" style="float:right">Back to top</a>
+          <br>
+        </div>
+      <hr>
+
+    <!-- Footer -->
+      <div>
+        <p style="font-size: 9px; text-align: center">AAM08C Tutorial Group 4, Assignment 1<br>By Muhammad Nur Shahril Iskandar Bin Abdul Ahmad Patsoen :)</p>
+      </div>
+    </body>
+    </html>
